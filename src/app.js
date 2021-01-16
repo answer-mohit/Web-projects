@@ -19,7 +19,7 @@ app.set('views',template_path);
 //set the view the engine
 app.set("view engine","hbs");
 hbs.registerPartials(partials_path);
-app.get("/",(req,res)=>{
+app.get("",(req,res)=>{
     res.render('login');
 });
 app.use(express.static(static_path));
