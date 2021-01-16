@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+#signup {
+  background-color: mediumspringgreen;
+}
+#signupForm,
+#loginForm {
+  border-radius: 20px;
+}
+#about {
+  height: 600px;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("https://wallpapercave.com/wp/wp6784520.png");
+  border-bottom: 4px solid gray;
+}
+#contact {
+  background-color: skyblue;
+}
+footer {
+  margin-top: 20px;
+  background-color: rgb(51, 47, 47);
+  color: white;
+}
